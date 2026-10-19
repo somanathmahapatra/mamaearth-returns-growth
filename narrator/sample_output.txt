@@ -1,0 +1,12 @@
+Situation
+
+The cleaned order dataset contains 175 orders, with cleaned revenue of ₹97,358.30. The payment-method return rates are COD at 44.4%, UPI at 18.9%, and CARD at 14.7%. The corrected monthly revenue series identifies March 2026 as the peak month, with revenue of ₹20,318.90.
+
+Complication
+
+The raw SQL revenue reference is ₹99,860.20, while cleaned revenue is ₹97,358.30. The reconciliation difference is ₹2,501.90, attributed to the duplicate orders removed during cleaning. The highest-risk segment is COD in city tier 2, with a return rate of 54.5%. January's apparent revenue of ₹29,582.10 is inflated by the flagged bulk orders; corrected January revenue is ₹11,637.10.
+
+Resolution
+
+Prioritize investigation of COD orders in tier 2 cities, starting with return reasons, delivery confirmation, and customer feedback. Monitor return rates separately by payment method and city tier, and evaluate any operational changes against subsequent results. Use the duplicate-reconciled revenue and outlier-corrected monthly series for financial reporting. Review the January bulk orders separately rather than treating their apparent revenue as normal demand. Validate the impact of these actions using the same cleaned definitions and metrics in future reporting.
+

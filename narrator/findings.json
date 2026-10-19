@@ -1,1 +1,158 @@
-
+{
+  "cleaned_order_count": 175,
+  "cleaned_revenue": 97358.3,
+  "corrected_peak_month": "2026-03",
+  "corrected_peak_revenue": 20318.9,
+  "correlations": {
+    "discount_pct": {
+      "discount_pct": 1.0,
+      "quantity": -0.170423,
+      "rating": 0.04273,
+      "returned": -0.088023
+    },
+    "quantity": {
+      "discount_pct": -0.170423,
+      "quantity": 1.0,
+      "rating": -0.097987,
+      "returned": 0.040627
+    },
+    "rating": {
+      "discount_pct": 0.04273,
+      "quantity": -0.097987,
+      "rating": 1.0,
+      "returned": -0.101483
+    },
+    "returned": {
+      "discount_pct": -0.088023,
+      "quantity": 0.040627,
+      "rating": -0.101483,
+      "returned": 1.0
+    }
+  },
+  "duplicate_count": 5,
+  "duplicate_order_ids": [
+    "O0176",
+    "O0177",
+    "O0178",
+    "O0179",
+    "O0180"
+  ],
+  "duplicate_revenue_removed": 2501.9,
+  "highest_risk_segment": {
+    "city_tier": 2,
+    "payment_method": "COD",
+    "return_rate_pct": 54.545
+  },
+  "largest_monthly_decrease": {
+    "amount": -10823.6,
+    "month": "2026-04",
+    "pct": -53.27
+  },
+  "largest_monthly_increase": {
+    "amount": 7123.4,
+    "month": "2026-03",
+    "pct": 53.98
+  },
+  "median_rating_used": 3.0,
+  "missing_values_before_imputation": {
+    "discount_pct": 12,
+    "rating": 15
+  },
+  "monthly_revenue_all_orders": [
+    {
+      "month": "2026-01",
+      "revenue": 29582.1
+    },
+    {
+      "month": "2026-02",
+      "revenue": 13195.5
+    },
+    {
+      "month": "2026-03",
+      "revenue": 20318.9
+    },
+    {
+      "month": "2026-04",
+      "revenue": 9495.3
+    },
+    {
+      "month": "2026-05",
+      "revenue": 13151.1
+    },
+    {
+      "month": "2026-06",
+      "revenue": 11615.4
+    }
+  ],
+  "monthly_revenue_corrected": [
+    {
+      "month": "2026-01",
+      "revenue": 11637.1,
+      "revenue_change": null,
+      "revenue_change_pct": null
+    },
+    {
+      "month": "2026-02",
+      "revenue": 13195.5,
+      "revenue_change": 1558.4,
+      "revenue_change_pct": 13.39
+    },
+    {
+      "month": "2026-03",
+      "revenue": 20318.9,
+      "revenue_change": 7123.4,
+      "revenue_change_pct": 53.98
+    },
+    {
+      "month": "2026-04",
+      "revenue": 9495.3,
+      "revenue_change": -10823.6,
+      "revenue_change_pct": -53.27
+    },
+    {
+      "month": "2026-05",
+      "revenue": 13151.1,
+      "revenue_change": 3655.8,
+      "revenue_change_pct": 38.5
+    },
+    {
+      "month": "2026-06",
+      "revenue": 11615.4,
+      "revenue_change": -1535.7,
+      "revenue_change_pct": -11.68
+    }
+  ],
+  "outlier_count": 2,
+  "outliers": [
+    {
+      "order_id": "O0011",
+      "quantity": 25
+    },
+    {
+      "order_id": "O0098",
+      "quantity": 30
+    }
+  ],
+  "payment_return_rates": [
+    {
+      "payment_method": "COD",
+      "return_rate_pct": 44.444,
+      "returned_orders": 24,
+      "total_orders": 54
+    },
+    {
+      "payment_method": "UPI",
+      "return_rate_pct": 18.868,
+      "returned_orders": 10,
+      "total_orders": 53
+    },
+    {
+      "payment_method": "CARD",
+      "return_rate_pct": 14.706,
+      "returned_orders": 10,
+      "total_orders": 68
+    }
+  ],
+  "raw_sql_revenue_reference": 99860.2,
+  "revenue_difference": 2501.9
+}
